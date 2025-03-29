@@ -1,10 +1,18 @@
 "use client";
 
 import React from 'react';
-
+import Hero from './Home/Hero';
+import About from './Home/AboutMe';
+import Projects from './Home/Projects';
+import Contact from './Home/Contact';
 const HomePage = () => {
   return (
-    <h1 className="text-4xl font-bold text-center">bonsoir elliot.</h1>
+    <div>
+      <Hero />
+      <About />
+      <Projects />
+      <Contact />
+    </div>
   );
 };
 
